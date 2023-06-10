@@ -1,5 +1,5 @@
-describe('template spec', () => {
-  it('passes', () => {
-    cy.visit('https://example.cypress.io')
-  })
-})
+describe('tasks page', () => {
+	it('should render the main image', () => {
+		cy.visit('https://example.cypress.io');
+	});
+});
